@@ -1,0 +1,51 @@
+print("Solucion taller")
+
+print ("Punto 1")
+
+Largo = float(input("Ingresa largo "))
+Ancho = float(input("Ingresa ancho "))
+
+Perimetro = Largo * 2 + Ancho * 2
+
+print ("Punto 2")
+
+print (f"El perimetro del terreno es: {Perimetro}")
+print("--"*20)
+
+Numero1 = float(input("Ingrese primer numero "))
+Numero2 = float(input("Ingrese segundo numero "))
+Numero3 = float(input("Ingrese tercer numero "))
+
+Promedio = (Numero1 + Numero2 + Numero3) / 3 
+print("--"*20)
+
+print ("Punto 3")
+
+Nombre =input("Ingrese su Nombre ")
+Edad = int(input("Ingrese su edad "))
+
+print("Hola, mi nombre es Ana y tengo 20 años")
+print("--"*20)
+
+print ("Punto 3")
+
+pesoscolombianos = float(input("Pesos Colombianos COP ")) 
+DolaresUSD = 4000 
+
+cambia = pesoscolombianos / DolaresUSD 
+
+print (f"su valor USD es:{cambia}")
+
+print("--"*20)
+
+print ("Punto 4")
+
+segundos_totales = int(input("Ingrese la cantidad de segundos: "))
+
+horas     = segundos_totales // 3600   
+minutos   = segundos_totales // 60   
+segundos  = segundos_totales % 60    
+
+print(f"{segundos_totales} segundos equivalen a  horas,{horas} minutos y {minutos} segundos {segundos}")
+
+
