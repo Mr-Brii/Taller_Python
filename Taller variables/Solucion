@@ -1,3 +1,4 @@
+'''
 print("Solucion taller")
 
 print ("Punto 1")
@@ -47,5 +48,5 @@ minutos   = segundos_totales // 60
 segundos  = segundos_totales % 60    
 
 print(f"{segundos_totales} segundos equivalen a  horas,{horas} minutos y {minutos} segundos {segundos}")
-
+'''
 
